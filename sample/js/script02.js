@@ -15,13 +15,14 @@ $(function(){
 
   //ここからjavascriptの話
 
-  let txt1 = "ここになにか文章がある。この文章はtxt1という変数で定義されている";
-  let txt2 = "さらにここになにか文章がある。この文章はtxt2という変数で定義されている";
+  let txt1 = "お昼ご飯を食べました。";
+  let txt2 = "いま授業中です。";
+  let txt3 = "めちゃ眠たいです"
   let num1 = 100;
   let num2 = 50;
 
   $("#button04").on("click",function(){
-    $("#content").text(txt1);
+    $("#content").text(txt1 + txt2 + txt3);
   })
 
   $("#button05").on("click",function(){
