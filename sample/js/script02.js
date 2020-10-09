@@ -20,13 +20,14 @@ $(function(){
   let txt3 = "めちゃ眠たいです"
   let num1 = 100;
   let num2 = 50;
+  let num3 = "50"
 
   $("#button04").on("click",function(){
     $("#content").text(txt1 + txt2 + txt3);
   })
 
   $("#button05").on("click",function(){
-    $("#content").text(num1 + num2);
+    $("#content").text(num1 + num2 * num3);
   })
   
 
