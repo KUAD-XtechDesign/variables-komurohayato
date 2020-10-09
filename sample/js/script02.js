@@ -2,7 +2,7 @@ $(function(){
   
   
   $("#button01").on("click",function(){
-    $("#content").text("モンスト10連s爆死した〜！！");
+    $("#content").text("モンスト10連爆死した〜！！");
   })
 
   $("#button02").on("click",function(){
